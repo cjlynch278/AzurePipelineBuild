@@ -1,0 +1,47 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "showcase/1.0.0": {
+        "dependencies": {
+          "MathsLibrary": "1.0.0",
+          "PeopleLibrary": "1.0.0"
+        },
+        "runtime": {
+          "showcase.dll": {}
+        }
+      },
+      "MathsLibrary/1.0.0": {
+        "runtime": {
+          "MathsLibrary.dll": {}
+        }
+      },
+      "PeopleLibrary/1.0.0": {
+        "runtime": {
+          "PeopleLibrary.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "showcase/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MathsLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PeopleLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

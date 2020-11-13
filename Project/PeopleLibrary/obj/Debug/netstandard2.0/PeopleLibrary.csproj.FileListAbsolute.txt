@@ -1,0 +1,9 @@
+C:\Projects\MathUtility\Project\PeopleLibrary\obj\Debug\netstandard2.0\PeopleLibrary.csprojAssemblyReference.cache
+C:\Projects\MathUtility\Project\PeopleLibrary\obj\Debug\netstandard2.0\PeopleLibrary.AssemblyInfoInputs.cache
+C:\Projects\MathUtility\Project\PeopleLibrary\obj\Debug\netstandard2.0\PeopleLibrary.AssemblyInfo.cs
+C:\Projects\MathUtility\Project\PeopleLibrary\obj\Debug\netstandard2.0\PeopleLibrary.csproj.CoreCompileInputs.cache
+C:\Projects\MathUtility\Project\PeopleLibrary\bin\Debug\netstandard2.0\PeopleLibrary.deps.json
+C:\Projects\MathUtility\Project\PeopleLibrary\bin\Debug\netstandard2.0\PeopleLibrary.dll
+C:\Projects\MathUtility\Project\PeopleLibrary\bin\Debug\netstandard2.0\PeopleLibrary.pdb
+C:\Projects\MathUtility\Project\PeopleLibrary\obj\Debug\netstandard2.0\PeopleLibrary.dll
+C:\Projects\MathUtility\Project\PeopleLibrary\obj\Debug\netstandard2.0\PeopleLibrary.pdb

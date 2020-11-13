@@ -1,0 +1,9 @@
+C:\Projects\MathUtility\Project\MathsLibrary\bin\Release\netstandard2.0\MathsLibrary.deps.json
+C:\Projects\MathUtility\Project\MathsLibrary\bin\Release\netstandard2.0\MathsLibrary.dll
+C:\Projects\MathUtility\Project\MathsLibrary\bin\Release\netstandard2.0\MathsLibrary.pdb
+C:\Projects\MathUtility\Project\MathsLibrary\obj\Release\netstandard2.0\MathsLibrary.csprojAssemblyReference.cache
+C:\Projects\MathUtility\Project\MathsLibrary\obj\Release\netstandard2.0\MathsLibrary.AssemblyInfoInputs.cache
+C:\Projects\MathUtility\Project\MathsLibrary\obj\Release\netstandard2.0\MathsLibrary.AssemblyInfo.cs
+C:\Projects\MathUtility\Project\MathsLibrary\obj\Release\netstandard2.0\MathsLibrary.csproj.CoreCompileInputs.cache
+C:\Projects\MathUtility\Project\MathsLibrary\obj\Release\netstandard2.0\MathsLibrary.dll
+C:\Projects\MathUtility\Project\MathsLibrary\obj\Release\netstandard2.0\MathsLibrary.pdb

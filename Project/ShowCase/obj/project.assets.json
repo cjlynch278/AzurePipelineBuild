@@ -1,0 +1,105 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "MathsLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/MathsLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MathsLibrary.dll": {}
+        }
+      },
+      "PeopleLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/PeopleLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PeopleLibrary.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MathsLibrary/1.0.0": {
+      "type": "project",
+      "path": "../MathsLibrary/MathsLibrary.csproj",
+      "msbuildProject": "../MathsLibrary/MathsLibrary.csproj"
+    },
+    "PeopleLibrary/1.0.0": {
+      "type": "project",
+      "path": "../PeopleLibrary/PeopleLibrary.csproj",
+      "msbuildProject": "../PeopleLibrary/PeopleLibrary.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "MathsLibrary >= 1.0.0",
+      "PeopleLibrary >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\310290474\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Projects\\MathUtility\\Project\\ShowCase\\ShowCase.csproj",
+      "projectName": "ShowCase",
+      "projectPath": "C:\\Projects\\MathUtility\\Project\\ShowCase\\ShowCase.csproj",
+      "packagesPath": "C:\\Users\\310290474\\.nuget\\packages\\",
+      "outputPath": "C:\\Projects\\MathUtility\\Project\\ShowCase\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\310290474\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {
+            "C:\\Projects\\MathUtility\\Project\\MathsLibrary\\MathsLibrary.csproj": {
+              "projectPath": "C:\\Projects\\MathUtility\\Project\\MathsLibrary\\MathsLibrary.csproj"
+            },
+            "C:\\Projects\\MathUtility\\Project\\PeopleLibrary\\PeopleLibrary.csproj": {
+              "projectPath": "C:\\Projects\\MathUtility\\Project\\PeopleLibrary\\PeopleLibrary.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
