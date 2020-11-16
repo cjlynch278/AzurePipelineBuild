@@ -37,3 +37,12 @@ steps:
     platform: 'any cpu'
     configuration: debug
     clean: true
+    
+
+- task: DotNetCoreCLI@2
+  inputs:
+    command: 'pack'
+    packagesToPack: 'Project/ShowCase/ShowCase.csproj'
+    configuration: 
+    packDirectory: 
+    versioningScheme: 'off'
