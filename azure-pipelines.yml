@@ -7,6 +7,9 @@
 trigger:
 - master
 
+variables:
+  buildConfiguration: 'Release'
+  
 pool:
   #name: MPLXGP
   vmImage: 'windows-latest'
@@ -51,6 +54,6 @@ steps:
   inputs:
     command: 'publish'
     publishWebProjects: false
-    pathtoPublish: 'Project/ShowCase/Release' 
-    artifactName: 'MathUtilityApp'
+    arguments: '--configuration $(BuildConfiguration) --output $(Build.ArtifactStagingDirectory)'
+    zipAfterPublish: True
 
