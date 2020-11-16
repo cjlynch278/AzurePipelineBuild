@@ -25,7 +25,6 @@ steps:
   inputs:
     command: restore
     feedsToUse: config
-    nugetConfigPath: 'NuGet.config'
     
 - task: DotNetCoreCLI@2
   inputs:
