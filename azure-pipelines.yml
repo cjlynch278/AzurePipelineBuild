@@ -7,8 +7,6 @@
 trigger:
 - master
 
-
-  
 pool:
   #name: MPLXGP
   vmImage: 'windows-latest'
@@ -28,7 +26,11 @@ steps:
     command: restore
     feedsToUse: config
     nugetConfigPath: 'NuGet.config'
-
+    
+- task: DotNetCoreCLI@2
+  inputs:
+    command: 'test'
+    projects: 'Tests/MathsLibraryTest/UnitTest1.cs'
 - task: VSBuild@1
   displayName: 'Build solution MathUtility.sln'
   inputs:
