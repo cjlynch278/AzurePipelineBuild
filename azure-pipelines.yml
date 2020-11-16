@@ -11,7 +11,6 @@ trigger:
   
 pool:
   #name: MPLXGP
-  vmImage: 'windows-latest'
   demands:
   - msbuild
   - visualstudio
