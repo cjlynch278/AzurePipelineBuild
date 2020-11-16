@@ -7,7 +7,7 @@
 trigger:
 - master
 
-pool:
+
   
 pool:
   #name: MPLXGP
