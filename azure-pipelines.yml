@@ -23,7 +23,7 @@ steps:
     forceReinstallCredentialProvider: true
 
 - task: VSBuild@1
-  displayName: 'Build solution **\*.sln'
+  displayName: 'Build solution MathUtility.sln'
   inputs:
     platform: 'any cpu'
     configuration: debug
