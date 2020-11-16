@@ -10,7 +10,7 @@ trigger:
 
   
 pool:
-  #name: MPLXGP
+  name: MPLXGP
   vmImage: 'windows-latest'
   demands:
   - msbuild
