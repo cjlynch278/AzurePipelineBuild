@@ -30,7 +30,8 @@ steps:
 - task: DotNetCoreCLI@2
   inputs:
     command: 'test'
-    projects: 'Tests/MathsLibraryTest/UnitTest1.cs'
+    projects: 'Tests/MathsLibraryTest/MathsLibraryTest.csproj'
+
 - task: VSBuild@1
   displayName: 'Build solution MathUtility.sln'
   inputs:
